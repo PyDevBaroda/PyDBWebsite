@@ -1,6 +1,6 @@
 {% extends "layouts/default.html" %}
 {% block content %}
-<div class="home-header">
+<div class="common-header">
     <header class="container jumbotron">
       <h1>
           <img width="70px" src="{{url_for('static',filename='python-logo-large.png')}}" />
@@ -8,5 +8,12 @@
           <small>Python Developers Baroda</small>
       </h1>
     </header>
+</div>
+<div class="container">
+    <h1>About Us</h1>
+    <p>
+        Python Developers Baroda is the official local user group of Python Software Foundation, San Francisco.
+        Here we discuss and develop using Python Language.
+    </p>
 </div>
 {% endblock %}

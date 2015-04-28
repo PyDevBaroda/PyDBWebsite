@@ -40,12 +40,18 @@ body
     background-color:#2b5b84;
     color:#eee;
 }
+.common-header, .common-header .jumbotron
+{
+    background-color:#2b5b84;
+    color:#eee;
+    padding:0px;
+}
 .home-header .jumbotron
 {
     padding-top:100px;
     padding-bottom:100px;
 }
-.home-header, .home-header .jumbotron small
+.jumbotron small
 {
     color:#aaa;
 }
@@ -61,4 +67,12 @@ footer a:link,a:visited,a:active,a:hover
 {
     text-decoration:none;
     background:#eee;
+}
+p
+{
+    font-size:20px;
+}
+.navbar-toggle .icon-bar
+{
+    background-color:#fff;
 }
