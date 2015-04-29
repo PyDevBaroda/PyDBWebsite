@@ -1,0 +1,38 @@
+{% extends "layouts/default.html" %}
+{% block content %}
+<div class="common-header">
+    <header class="container jumbotron">
+      <h1>
+          <img width="70px" src="{{url_for('static',filename='python-logo-large.png')}}" />
+          PyDB
+          <small>Python Developers Baroda</small>
+      </h1>
+    </header>
+</div>
+<div class="container">
+    <h1><i class="fa fa-fw fa-info-circle"></i> About Us</h1>
+    <p>
+        This is the website of the official Python User Group of Baroda.
+    </p>
+    <p>
+        Here, Intermediate and advanced users share how they use the language and learn new tricks;
+        we also welcome beginners and help them step in.
+        It is a great place to ask for help and socialize with other people with a similar interest.
+    </p>
+    <p>
+        Meetings are usually once every month, they are very informal and open to everyone.
+        Our meetings will always be free and open to the general public. We will sometimes
+        co-host a joint meeting with other community group. In such events, you may even get
+        the chance to interact with developers who have already programmed on any of these platforms in person.
+    </p>
+    <p>
+        Google Group: <a href="http://goo.gl/Gl22zh">http://goo.gl/Gl22zh</a>
+    </p>
+    <p>
+        GitHub: <a href="https://github.com/PyDevBaroda">https://github.com/PyDevBaroda</a>
+    </p>
+    <p>
+        <b>Disclaimer: Python Developers Baroda is an independent group; our activities and the opinions expressed here should in no way be linked to Python Software Foundation.</b>
+    </p>
+</div>
+{% endblock %}

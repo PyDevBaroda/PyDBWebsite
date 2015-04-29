@@ -1,0 +1,30 @@
+{% extends "layouts/default.html" %}
+{% block content %}
+<div class="common-header">
+    <header class="container jumbotron">
+      <h1>
+          <img width="70px" src="{{url_for('static',filename='python-logo-large.png')}}" />
+          PyDB
+          <small>Python Developers Baroda</small>
+      </h1>
+    </header>
+</div>
+<div class="container">
+    <h1><i class="fa fa-fw fa-briefcase"></i> Resources For Learning Python</h1>
+    <p>We recommend using the following websites/books to learn python.</p>
+    <p>
+        <ul style="font-size:2rem;">
+            <li><a href="http://docs.python.org/2/tutorial/">Python Tutorial</a></li>
+            <li><a href="http://www.afterhoursprogramming.com/tutorial/Python/Introduction/">After Hours Programming's Python Tutorials</a></li>
+            <li><a href="http://freepythontips.wordpress.com/">Free Python tips</a></li>
+            <li><a href="https://developers.google.com/edu/python/?csw=1">Google's Python Tutorial</a></li>
+            <li><a href="http://www.learnpython.org/">Learn Python</a></li>
+            <li><a href="http://inventwithpython.com/">Invent with Python</a></li>
+            <li><a href="https://www.coursera.org/course/interactivepython">Coursera</a></li>
+            <li><a href="http://www.pyschools.com/">Pyschools</a></li>
+            <li><a href="http://cyberzonec.com"/>Cyberzonec</a></li>
+            <li><a href="http://www.afterhoursprogramming.com/">After Hour Programming</a></li>
+        </ul>
+    </p>
+</div>
+{% endblock %}
